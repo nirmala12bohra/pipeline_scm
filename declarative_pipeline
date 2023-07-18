@@ -2,20 +2,16 @@ pipeline {
    agent any
 
    stages {
-      stage('Build') {
+      stage('hello') {
          steps {
-            // Steps for building the code
+            echo "hello"
          }
       }
-      stage('Test') {
+      stage('colour') {
          steps {
-            // Steps for running tests
+            echo "my fav colour is black"
          }
       }
-      stage('Deploy') {
-         steps {
-            // Steps for deploying the application
-         }
-      }
+     
    }
 }
