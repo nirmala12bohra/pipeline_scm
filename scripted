@@ -1,11 +1,9 @@
 node {
-   stage('Build') {
+   stage('hello') {
      echo "hello"
    }
-   stage('Test') {
-     echo "hello"
+   stage('colour') {
+     echo "black"
    }
-   stage('Deploy') {
-   echo "hello"
-}
+  
 }
